@@ -1,0 +1,21 @@
+{
+	"version": "0.1.0",
+	"configurations": [
+		{
+			"name": "Chrome",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:8000",
+			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"type": "extendscript-debug",
+			"request": "launch",
+			"name": "ESTK",
+			"program": "${fileDirname}/${fileBasename}",
+			"stopOnEntry": false,
+			"targetSpecifier": "photoshop-150.064",
+			"engineName": "main"
+		},
+	]
+}
