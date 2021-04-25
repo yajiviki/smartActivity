@@ -1,9 +1,7 @@
-## Create Adobe-CEP extension
-### Adobe-CEP with React, Material-UI, Native Node modules, Webpack, Babel and ExtendScript
+## All about the Smart Activity
+### Smart Activity with React, Material-UI, Native Node modules, Webpack, Babel and ExtendScript
 
-<img src="kap.gif"/>
-
-this Adobe-CEP extension creator bootstraps for creating Adobe CC extensions easily with
+this Smart Activity extension creator bootstraps for creating Adobe CC extensions easily with
 modern web technologies and with native node.js modules for session logic
 and with support for extendscript (host app). It is built in a semi opinionated
 way so you can focus on writing your great extensions.
@@ -43,8 +41,8 @@ dist
 start with `./pluginrc.js`, this is the plugin config I created, here is an example
 ```javascript
 module.exports = {
-    extensionBundleId: 'com.brhrhi.demo',
-    extensionBundleName: 'demo',
+    extensionBundleId: 'com.smartactivity.demo',
+    extensionBundleName: 'beta',
     extensionBundleVersion: '1.0.1',
     cepVersion: '7.0',
     panelName: 'brhrhi demo',

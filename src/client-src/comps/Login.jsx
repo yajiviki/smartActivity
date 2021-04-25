@@ -19,7 +19,7 @@ const styles = theme => ({
 		paddingLeft: theme.spacing(1),
 		paddingBottom: theme.spacing(40),
 		paddingRight: theme.spacing(1),
-		backgroundColor: '#343b3e',
+		// backgroundColor: '#2e2e2e',
 		color: "#000",
 		height: '100%',
 		width: '100%',
@@ -42,9 +42,10 @@ const styles = theme => ({
 	},
 	divcolor: {
 		marginTop: -30,
-		width: '105%',
+		marginLeft: -15,
+		width: '107.25%',
 		height: 27,
-		backgroundColor: '#042d3b',
+		backgroundColor: '#119279',
 		paddingTop: theme.spacing(0.25),
 		paddingLeft: theme.spacing(1),
 		paddingBottom: theme.spacing(0.125),
@@ -117,7 +118,7 @@ const styles = theme => ({
 		borderWidth: 1,
 		borderColor: '#007da7',
 		"&:hover": {
-			backgroundColor: "#93e4f1"
+			backgroundColor: "#ed9c22"
 		},
 	},
 
@@ -212,7 +213,7 @@ class Login extends React.Component {
 											</InputGroupText>
 										</InputGroupAddon>
 										User Name : &nbsp;
-										<Input type="text" id="username" autoFocus placeholder="Username" autoComplete="username" onBlur={(e) => { this.handleUserChange(e) }} required />	</InputGroup>
+										<Input type="text" id="username" autoFocus placeholder="" autoComplete="username" onBlur={(e) => { this.handleUserChange(e) }} required />	</InputGroup>
 									<span className={classes.para} />
 									<InputGroup className="mb-4">
 										<InputGroupAddon addonType="prepend">
@@ -220,8 +221,8 @@ class Login extends React.Component {
 												<i className="icon-lock"></i>
 											</InputGroupText>
 										</InputGroupAddon>
-										&nbsp;&nbsp;Password : &nbsp;
-										<Input type="password" id="password" placeholder="Password" autoComplete="current-password" onBlur={(e) => { this.handlePassChange(e) }} required />
+										&nbsp;&nbsp;&nbsp;Password : &nbsp;
+										<Input type="password" id="password" placeholder="" autoComplete="current-password" onBlur={(e) => { this.handlePassChange(e) }} required />
 									</InputGroup>
 									<Row>
 										<Col xs="6">
